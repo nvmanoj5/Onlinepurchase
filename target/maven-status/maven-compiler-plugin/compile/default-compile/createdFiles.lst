@@ -1,0 +1,7 @@
+com\purchase\pagefactory\loginPage.class
+com\purchase\pagefactory\ProductHomePage.class
+com\purchase\pagefactory\ProductDetailPage.class
+com\purchase\pagefactory\AddToCartPage.class
+com\purchase\utility\PropertiesFileReader.class
+com\purchase\utility\BrowserUtility$1.class
+com\purchase\utility\BrowserUtility.class

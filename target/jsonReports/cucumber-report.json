@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-24T18:12:09.668Z",
+        "before": [
+          {
+            "result": {
+              "duration": 992500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.purchase.stepdefinitions.hook.startup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the purchased dress details",
+        "description": "",
+        "id": "product-purchase;validate-the-purchased-dress-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19460432300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the online purchase application",
+            "match": {
+              "location": "com.purchase.stepdefinitions.StepDefinition.open_the_online_purchase_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7509201900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login into the application with valid \"nvmanoj5@gmail.com\" username and \"12345\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nvmanoj5@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 72
+                }
+              ],
+              "location": "com.purchase.stepdefinitions.StepDefinition.login_into_the_application_with_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7461279800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the dresses tab and choose the casualdresses",
+            "match": {
+              "location": "com.purchase.stepdefinitions.StepDefinition.click_the_dresses_tab_and_choose_the_casualdresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5710849500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click more button for product details",
+            "match": {
+              "location": "com.purchase.stepdefinitions.StepDefinition.click_more_button_for_product_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91209800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the product details if the product details has \"100% cotton\" this information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100% cotton\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.purchase.stepdefinitions.StepDefinition.verify_the_product_details_if_the_product_details_has_this_information(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92867000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the product price \"$50\"  size \"S\" size1 \"M\" and colour \"Orange\" colour2 \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$50\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"S\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Orange\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Blue\"",
+                  "offset": 79
+                }
+              ],
+              "location": "com.purchase.stepdefinitions.StepDefinition.verify_the_product_price_size_size1_and_colour_colour2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22806008200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Purchase the dress",
+            "match": {
+              "location": "com.purchase.stepdefinitions.StepDefinition.purchase_the_dress()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dresspurchase"
+          }
+        ]
+      }
+    ],
+    "name": "product purchase",
+    "description": "",
+    "id": "product-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/purchase/features/OnlinePurchase.feature",
+    "tags": []
+  }
+]
